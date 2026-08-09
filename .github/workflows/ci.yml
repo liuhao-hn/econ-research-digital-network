@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: do 文件路径泄露扫描
+        run: python scripts/path_scan.py
+      - name: do 文件完整性
+        run: |
+          [ "$(ls do/*.do | wc -l)" -ge 4 ] && echo "✓ 4 个 do 文件就位"
+          grep -q "DTE" do/03_dte_dtu_rolling_window.do && echo "✓ DTE/DTU 测算脚本就位"

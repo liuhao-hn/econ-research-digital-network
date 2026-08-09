@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+# 数据受许可，绝不提交
+data/
+*.dta
+*.xlsx
+*.xls
