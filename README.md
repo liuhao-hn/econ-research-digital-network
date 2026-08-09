@@ -22,6 +22,15 @@
 4. **异质性**：赋能效应在**国有企业、高技术行业及东部沿海地区**更为显著——揭示吸收能力与制度环境对网络红利释放的调节作用。
 5. **动态效应**：抑制效应呈时间衰减特征（滞后 1~3 期系数显著为负：L1≈-0.088、L2≈-0.050、L3≈-0.057），说明信息红利与治理效用具有中短期跨期延续性。
 
+## 实证结果
+
+| 结果 | 文件 |
+|---|---|
+| 基准回归（系数/显著性/N/R²） | [`results/baseline_regression.md`](./results/baseline_regression.md) |
+| 稳健性检验汇总（替换被解释变量/固定效应/内生性） | [`results/robustness.md`](./results/robustness.md) |
+| 机制分析（双元创新/人力资本/投资约束） | [`results/mechanism.md`](./results/mechanism.md) |
+| 安慰剂检验图（500 次随机抽样） | [`results/placebo.png`](./results/placebo.png) |
+
 ## 方法路径
 
 ```
