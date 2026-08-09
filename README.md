@@ -77,6 +77,10 @@ stata-mp -b do/03_dte_dtu_rolling_window.do
 stata-mp -b do/04_heterogeneity_analysis.do
 ```
 
+## 参考文献
+
+按理论链条整理的核心文献清单（含 Romer / Katz-Shapiro AER 1985 / Acemoglu Econometrica 2012 / Hsieh-Klenow QJE 2009 / Rosenbaum-Rubin 1983 等经典）：[`docs/references.md`](./docs/references.md)
+
 ## 隐私与合规
 
 - ✅ 仅含方法代码（Stata do 文件），**不含任何真实数据**
