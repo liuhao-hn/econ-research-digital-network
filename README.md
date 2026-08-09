@@ -1,5 +1,7 @@
 # 数字创新网络与企业资源配置
 
+![CI](https://github.com/liuhao-hn/econ-research-digital-network/actions/workflows/ci.yml/badge.svg)
+
 数字技术创新网络对企业资源配置效率影响的**实证研究复现代码**——经济学方法与 Stata 编码双能力的展示仓库。
 
 > 本研究已在**广东经济学会中青年学者论坛（第 26 次会议）**报告。
